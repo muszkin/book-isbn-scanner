@@ -7,11 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B95E23CE2039838300D91206 /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B95E23CD2039838300D91206 /* DetailsViewController.swift */; };
+		B95E23CF2039865C00D91206 /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B95E23CD2039838300D91206 /* DetailsViewController.swift */; };
+		B95E23D02039865D00D91206 /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B95E23CD2039838300D91206 /* DetailsViewController.swift */; };
+		B95E23D220398A4800D91206 /* BookstatusModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B95E23D120398A4800D91206 /* BookstatusModel.swift */; };
 		B9828EEC203880D100EBC2B5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9828EEB203880D100EBC2B5 /* AppDelegate.swift */; };
-		B9828EEE203880D100EBC2B5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9828EED203880D100EBC2B5 /* ViewController.swift */; };
+		B9828EEE203880D100EBC2B5 /* ScannerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9828EED203880D100EBC2B5 /* ScannerViewController.swift */; };
 		B9828EF1203880D100EBC2B5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B9828EEF203880D100EBC2B5 /* Main.storyboard */; };
 		B9828EF3203880D100EBC2B5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B9828EF2203880D100EBC2B5 /* Assets.xcassets */; };
-		B9828EF6203880D100EBC2B5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B9828EF4203880D100EBC2B5 /* LaunchScreen.storyboard */; };
 		B9828F01203880D100EBC2B5 /* Book_Catalogue_ToolTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9828F00203880D100EBC2B5 /* Book_Catalogue_ToolTests.swift */; };
 		B9828F0C203880D100EBC2B5 /* Book_Catalogue_ToolUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9828F0B203880D100EBC2B5 /* Book_Catalogue_ToolUITests.swift */; };
 /* End PBXBuildFile section */
@@ -34,12 +37,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		B95E23CD2039838300D91206 /* DetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsViewController.swift; sourceTree = "<group>"; };
+		B95E23D120398A4800D91206 /* BookstatusModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookstatusModel.swift; sourceTree = "<group>"; };
 		B9828EE8203880D100EBC2B5 /* Book Catalogue Tool.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Book Catalogue Tool.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B9828EEB203880D100EBC2B5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		B9828EED203880D100EBC2B5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B9828EED203880D100EBC2B5 /* ScannerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScannerViewController.swift; sourceTree = "<group>"; };
 		B9828EF0203880D100EBC2B5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B9828EF2203880D100EBC2B5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		B9828EF5203880D100EBC2B5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B9828EF7203880D100EBC2B5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B9828EFC203880D100EBC2B5 /* Book Catalogue ToolTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Book Catalogue ToolTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B9828F00203880D100EBC2B5 /* Book_Catalogue_ToolTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Book_Catalogue_ToolTests.swift; sourceTree = "<group>"; };
@@ -74,6 +78,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B95E23D320398B9F00D91206 /*  Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = " Models";
+			sourceTree = "<group>";
+		};
+		B95E23D420398BB000D91206 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				B9828EED203880D100EBC2B5 /* ScannerViewController.swift */,
+				B95E23D120398A4800D91206 /* BookstatusModel.swift */,
+				B95E23CD2039838300D91206 /* DetailsViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
 		B9828EDF203880D100EBC2B5 = {
 			isa = PBXGroup;
 			children = (
@@ -97,11 +118,11 @@
 		B9828EEA203880D100EBC2B5 /* Book Catalogue Tool */ = {
 			isa = PBXGroup;
 			children = (
+				B95E23D420398BB000D91206 /* Controllers */,
+				B95E23D320398B9F00D91206 /*  Models */,
 				B9828EEB203880D100EBC2B5 /* AppDelegate.swift */,
-				B9828EED203880D100EBC2B5 /* ViewController.swift */,
 				B9828EEF203880D100EBC2B5 /* Main.storyboard */,
 				B9828EF2203880D100EBC2B5 /* Assets.xcassets */,
-				B9828EF4203880D100EBC2B5 /* LaunchScreen.storyboard */,
 				B9828EF7203880D100EBC2B5 /* Info.plist */,
 			);
 			path = "Book Catalogue Tool";
@@ -232,7 +253,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B9828EF6203880D100EBC2B5 /* LaunchScreen.storyboard in Resources */,
 				B9828EF3203880D100EBC2B5 /* Assets.xcassets in Resources */,
 				B9828EF1203880D100EBC2B5 /* Main.storyboard in Resources */,
 			);
@@ -259,8 +279,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B9828EEE203880D100EBC2B5 /* ViewController.swift in Sources */,
+				B95E23D220398A4800D91206 /* BookstatusModel.swift in Sources */,
+				B9828EEE203880D100EBC2B5 /* ScannerViewController.swift in Sources */,
 				B9828EEC203880D100EBC2B5 /* AppDelegate.swift in Sources */,
+				B95E23CE2039838300D91206 /* DetailsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -269,6 +291,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B9828F01203880D100EBC2B5 /* Book_Catalogue_ToolTests.swift in Sources */,
+				B95E23CF2039865C00D91206 /* DetailsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -277,6 +300,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B9828F0C203880D100EBC2B5 /* Book_Catalogue_ToolUITests.swift in Sources */,
+				B95E23D02039865D00D91206 /* DetailsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -302,14 +326,6 @@
 				B9828EF0203880D100EBC2B5 /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		B9828EF4203880D100EBC2B5 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				B9828EF5203880D100EBC2B5 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -426,7 +442,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SLUHMDTW8X;
 				INFOPLIST_FILE = "Book Catalogue Tool/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "drpiotr.pl.Book-Catalogue-Tool";
@@ -440,7 +458,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SLUHMDTW8X;
 				INFOPLIST_FILE = "Book Catalogue Tool/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "drpiotr.pl.Book-Catalogue-Tool";
